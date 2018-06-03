@@ -136,13 +136,14 @@ nav h1 a {
   flex-direction: column;
   justify-content:center;
   align-items:center;
+  width:90%;
 }
 .filter-options h2 {
   color: white;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
-  margin: 0 20px;
+  margin:0 10px;
 }
 .filter-options select {
   background-color: white;
@@ -153,12 +154,17 @@ nav h1 a {
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  width: 200px;
+  width: 100%;
 }
 /*===================media queries====================*/
+@media(min-width:576px){
+  .wrapper{
+  width:380px;
+  }
+}
 @media(min-width:768px){
   .wrapper{
-    width:740px;
+    width:700px;
     flex-direction:row;
     justify-content: center;
   }
@@ -169,7 +175,7 @@ nav h1 a {
 }
 @media(min-width:1200px){
   .wrapper{
-    width:1040px;
+    width:1080px;
   }
 }
 
