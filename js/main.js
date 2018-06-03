@@ -29,7 +29,7 @@ fetchNeighborhoods = () => {
 /**
  * Set neighborhoods HTML.
  */
-fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
+fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {  
   const select = document.getElementById('neighborhoods-select');
   neighborhoods.forEach(neighborhood => {
     const option = document.createElement('option');
