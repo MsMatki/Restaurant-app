@@ -2,7 +2,7 @@ const staticCacheName = 'restaurant-service-v1';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(staticCacheName).then((cache) => {
+    caches.open(staticCacheName).then((cache) => {  
       return cache.addAll([
         '/',
         '../index.html',
