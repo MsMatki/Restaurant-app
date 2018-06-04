@@ -124,7 +124,7 @@ nav h1 a {
 .filter-options {
   width: 100%;
   height: 100%;
-  background-color: #3397DB;
+  background-color: #252831;
   display:flex;
   flex-direction: column;
   justify-content:center;
@@ -137,6 +137,7 @@ nav h1 a {
   justify-content:center;
   align-items:center;
   width:90%;
+  padding-bottom:1em;
 }
 .filter-options h2 {
   color: white;
@@ -155,6 +156,7 @@ nav h1 a {
   margin: 10px;
   padding: 0 10px;
   width: 100%;
+  border-radius:5px;
 }
 /*===================media queries====================*/
 @media(min-width:576px){
@@ -167,6 +169,7 @@ nav h1 a {
     width:700px;
     flex-direction:row;
     justify-content: center;
+    padding-bottom:0;
   }
   .filter-options{
     
@@ -215,6 +218,13 @@ nav h1 a {
   padding: 0 30px 25px;
   text-align: left;
   width: 100%;
+}
+.item h3{
+  color: #f18200;
+  text-transform: uppercase;
+  font-weight:normal;
+  margin:10px 0;
+  font-size: 14pt;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -358,7 +368,7 @@ nav h1 a {
   justify-content: center;
   align-items: center;
 }
-#reviews-container h2 {
+#reviews-container h3 {
   color: #f58500;
   font-size: 24pt;
   font-weight: 300;
@@ -396,26 +406,26 @@ nav h1 a {
   padding-right:1em;
 }
 
-#date-name h3{
+#date-name h4{
   color:white;
   margin:10px;
   font-weight: normal;
   padding-left:1em;
+  font-size:1.1em;
 }
 
 .rating-comments{
   padding:0 1em;
 }
-.rating-comments h4{
+.rating-comments h5{
   padding:2px;
   background-color:orange;
   width:80px;
   text-align: center;
   color:white;
   letter-spacing: 1px;
-}
-#reviews-list li h4 {
   margin:10px;
+  font-size:1em;
 }
 
 #reviews-list li p {

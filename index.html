@@ -26,10 +26,10 @@
       <div class="filter-options">
           <div class="wrapper">
         <h2>Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" aria-label="Select Neighborhood" onchange="updateRestaurants()">
+        <select tabindex="1" id="neighborhoods-select" name="neighborhoods" aria-label="Select Neighborhood" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" aria-label="Select Cuisine" onchange="updateRestaurants()">
+        <select tabindex="2" id="cuisines-select" name="cuisines" aria-label="Select Cuisine" onchange="updateRestaurants()">
           <option value="all">All Cuisines</option>
         </select>
     </div>        
@@ -39,8 +39,14 @@
     </div>
     </section>
   </main>
-
-  <script type="application/javascript" charset="utf-8" src="js/register.js"></script>
+  <script>
+    navigator.serviceWorker.register('sw.js')
+    .then(() => {
+      console.log('Service registered')
+    }).catch(() => {
+      console.log('Service failed')
+    })
+  </script>
   <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
   <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3CUp0hxnPlJ3Ig0vpm2klPIuOWJjCdcc&callback=initMap"></script>
