@@ -220,7 +220,7 @@ nav h1 a {
   width: 100%;
 }
 .item h3{
-  color: #f18200;
+  color: #6B3B03;
   text-transform: uppercase;
   font-weight:normal;
   margin:10px 0;
@@ -248,9 +248,9 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #6B3B03;
   border-bottom: 3px solid #eee;
-  color: #fff;
+  color: orange;
   display: inline-block;
   font-size: 10pt;
   margin: 15px 0 0;
