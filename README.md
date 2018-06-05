@@ -1,6 +1,8 @@
 # Mobile Web Specialist Nanodegree Certification Course
 ---
-* This app is created as part of the Udacity Nanodegree "Mobile Web Specialist".
+This app is created as part of the Udacity Nanodegree "Mobile Web Specialist".
+The webiste retrieves data about restaurants from a server. The restaurants' data contain rating information about restaurants. The data main structure and images of the website is persisted in cache using a service worker and the restaurant information/list is stored in indexedDB to achieve a good Offline first experience. 
+This app functions on any device or screen size.
 
 ## Screenshot
 
@@ -14,7 +16,13 @@
 * npm install
 * npm install http-server -g
 * http-server -p 5500
+* With your server running, visit the site: http://localhost:5500
 
+## Technologies
+
+* HTML5
+* CSS3
+* JavaScript ES6
 
 
 
