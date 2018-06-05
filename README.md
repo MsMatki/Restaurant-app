@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-<img src="img/restaurant.png" width:"500">
+![alt text](Screen.png)
 
 ## How To Use 
 
