@@ -16,13 +16,15 @@
   <!-- Beginning header -->
   <header>
     <!-- Beginning nav -->
-    <nav>
-      <h1><a href="/" aria-label="Restaurant Reviews">Restaurant Reviews</a></h1>  
+    <nav class="main-nav">
+      <h1><a href="/" aria-label="Restaurant Reviews" tabindex="-1">Restaurant Reviews</a></h1>  
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="/" aria-label="Home">Home</a></li>
+  <nav class="second-nav">
+    <ul id="breadcrumb" aria-label="Breadcrumb">
+      <li><a href="/" aria-current="page">Home</a></li>
     </ul>
+  </nav>
     <!-- End breadcrumb -->
     <!-- End nav -->
   </header>
@@ -32,16 +34,16 @@
   <main id="maincontent">
     <!-- Beginning map -->
     <section id="map-container">
-      <div id="map"></div>
+      <div id="map" role="application"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
     <div class="wrap">
     <section id="restaurant-container">
-      <h2 id="restaurant-name"></h2>
+      <h2 id="restaurant-name" tabindex="1"></h2>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address"></p>
+      <p id="restaurant-address" tabindex="2"></p>
       <table id="restaurant-hours"></table>
     </section>
     <!-- end restaurant -->
