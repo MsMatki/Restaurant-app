@@ -22,7 +22,7 @@ fetchNeighborhoods = () => {
     } else {
       self.neighborhoods = neighborhoods;
       fillNeighborhoodsHTML();
-    }
+    }  
   });
 }
 
@@ -125,6 +125,7 @@ resetRestaurants = (restaurants) => {
  * Create all restaurants HTML and add them to the webpage.
  */
 fillRestaurantsHTML = (restaurants = self.restaurants) => {
+  
   const ul = document.getElementById('restaurants-list');
   restaurants.forEach(restaurant => {
     ul.append(createRestaurantHTML(restaurant));
@@ -139,6 +140,7 @@ createRestaurantHTML = (restaurant) => {
   const div = document.createElement('div');
   div.className = 'item';
   const li = document.createElement('li');
+  
 
   const image = document.createElement('img');
   image.className = 'restaurant-img';
@@ -161,6 +163,7 @@ createRestaurantHTML = (restaurant) => {
 
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
+  more.setAttribute('tabindex', '3');
   more.href = DBHelper.urlForRestaurant(restaurant);
   div.append(more)
 

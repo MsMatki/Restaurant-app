@@ -16,7 +16,7 @@ window.initMap = () => {
       });
       fillBreadcrumb();
       DBHelper.mapMarkerForRestaurant(self.restaurant, self.map);
-    }
+    }   
   });
 }
 
@@ -58,6 +58,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = `${restaurant.name} image`;
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
@@ -143,6 +144,7 @@ createReviewHTML = (review) => {
 
   const div2 = document.createElement('div');
   div2.className = 'rating-comments';
+  div.setAttribute('tabindex', '3')
   div2.appendChild(rating);
   div2.appendChild(comments);
   li.appendChild(div2);

@@ -100,7 +100,7 @@ class DBHelper {
         }
         callback(null, results);
       }
-    });
+    });   
   }
 
   /**
