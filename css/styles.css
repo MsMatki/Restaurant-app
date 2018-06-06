@@ -94,7 +94,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 /* Add a slash symbol (/) before/behind each list item */
-#breadcrumb li+li:before {
+#breadcrumb li+li:before {  
   padding: 8px;
   color: black;
   content: "/\00a0";
