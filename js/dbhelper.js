@@ -8,7 +8,7 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    const port = 5500 // Change this to your server port
+     // Change this to your server port
     return `https://msmatki.github.io/Restaurant-app/data/restaurants.json`;
   }
 
