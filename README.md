@@ -4,11 +4,14 @@ This app is created as part of the Udacity Nanodegree "Mobile Web Specialist".
 The webiste retrieves data about restaurants from a server. The restaurants' data contain rating information about restaurants. The data main structure and images of the website is persisted in cache using a service worker and the restaurant information/list is stored in indexedDB to achieve a good Offline first experience. 
 This app functions on any device or screen size.
 
+## Preview
+You can check the live website <a hreff="https://msmatki.github.io/Restaurant-app/">Here</a>
+
 ## Screenshot
 
 ![alt text](Screen.png)
 
-## How To Use 
+## How To Use On you Local Machine 
 
 * To run this file, download the GitHub zip file or clone the repository.
 * Open the root folder of the repository in a terminal
