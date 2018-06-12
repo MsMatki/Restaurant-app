@@ -5,7 +5,7 @@ The webiste retrieves data about restaurants from a server. The restaurants' dat
 This app functions on any device or screen size.
 
 ## Preview
-You can check the live website <a hreff="https://msmatki.github.io/Restaurant-app/">Here</a>
+You can check the live website [Here](https://msmatki.github.io/Restaurant-app/)  
 
 ## Screenshot
 
