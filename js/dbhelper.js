@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
      // Change this to your server port
-    return ` https://msmatki.github.io/Restaurant-app/data/restaurants.json`;
+    return `https://msmatki.github.io/Restaurant-app/data/restaurants.json`;
   }
 
   /**
@@ -150,7 +150,7 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/img/${restaurant.photograph}`);
+    return (`/Restaurant-app/img/${restaurant.photograph}`);
   }
 
   /**
