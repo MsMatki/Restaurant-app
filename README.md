@@ -11,7 +11,7 @@ You can check the live website [Here](https://msmatki.github.io/Restaurant-app/)
 
 ![alt text](Screen.png)
 
-## How To Use On you Local Machine 
+## How To Use On Your Local Machine 
 
 * To run this file, download the GitHub zip file or clone the repository.
 * Open the root folder of the repository in a terminal
