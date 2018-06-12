@@ -9,7 +9,7 @@ class DBHelper {
    */
   static get DATABASE_URL() {
      // Change this to your server port
-    return ` https://msmatki.github.io/data/restaurants.json`;
+    return ` https://msmatki.github.io/Restaurant-app/data/restaurants.json`;
   }
 
   /**
