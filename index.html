@@ -24,21 +24,21 @@
       <div id="map" role="application"></div>
     </section>
     <section>
-      <div class="filter-options">  
-          <div class="wrapper">
-        <h2>Filter Results</h2>
-        <select tabindex="1" id="neighborhoods-select" name="neighborhoods" aria-label="Select Neighborhoods" onchange="updateRestaurants()">
-          <option value="all">All Neighborhoods</option>
-        </select>
-        <select tabindex="2" id="cuisines-select" name="cuisines" aria-label="Select Cuisines" onchange="updateRestaurants()">
-          <option value="all">All Cuisines</option>
-        </select>
-    </div>        
+      <div class="filter-options">
+         <div class="wrapper">
+            <h2>Filter Results</h2>
+            <select tabindex="1" id="neighborhoods-select" name="neighborhoods" aria-label="Select Neighborhoods" onchange="updateRestaurants()">
+               <option value="all">All Neighborhoods</option>
+            </select>
+            <select tabindex="2" id="cuisines-select" name="cuisines" aria-label="Select Cuisines" onchange="updateRestaurants()">
+               <option value="all">All Cuisines</option>
+            </select>
+         </div>
       </div>
       <div class="restaurant-container">
-      <ul id="restaurants-list"></ul>
-    </div>
-    </section>
+         <ul id="restaurants-list"></ul>
+      </div>
+   </section>
   </main>
   <script>
     navigator.serviceWorker.register('sw.js')
